@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link href="narrow-jumbotron.css" rel="stylesheet">
+	<link href="css\one-page-wonder.css" rel="stylesheet">
   </head>
 
   <body>
@@ -26,7 +27,7 @@
               <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#About">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -50,25 +51,81 @@
           <a href="https://github.com/aworley/ocm/wiki/OCM-User-Manual"><h4>User Documentation</h4></a>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Technical Information</h4>
+          <a href="#Technical-Info"><h4>Technical Information</h4></a>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
 
         <div class="col-lg-6">
-          <h4>Support</h4>
+          <a href="#Support"><h4>Support</h4></a>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Contact</h4>
+          <a href="#Contact"><h4>Contact</h4></a>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
           <a href="https://pikasoftware.com/demo/"><h4>Demo</h4></a>
           <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
-      </div>
+	  </div>
+	  
+	    <hr class="featurette-divider">
+
+        <!-- About Section -->
+        <div class="featurette" id="about">
+            <a name="About"></a>
+            <h2 class="featurette-heading">About OCM</h2>
+            <p class="lead">The Problem
+
+Finding a cost effective, easy-to-manage method for centralizing case management computing resources continues to be a issue for the legal aid community. These organizations require a technology that can link multiple, geographically-separate offices in an simple and, of course, low-cost manner. Existing strategies are either expensive, complicated or require high speed Internet access, which is not universally available.
+The Solution
+
+The answer is to integrate case management functions into a website, which can be accessed by attorneys and staff from any computer - from any office, from home, or on the road.
+
+Pika is the code name for a new CMS (Case Management System), developed specifically for use by not-for-profit legal aid organizations. Pika is actually a website, designed to handle case management tasks. It is accessible with any current web browser, including Netscape® Navigator and Microsoft® Internet Explorer. The integration of case management into a website provides an easy, flexible and inexpensive way of connecting multiple offices and telecommuters to a single, centralized CMS.
+	
+The Advantages
+
+Pika is designed from the ground up to run over the web, and is the only CMS to provide true website access to legal aid programs. As a "website CMS", Pika has several advantages over both Windows-based, non-centralized systems and "thin client" (Citrix, Microsoft Terminal Server) centralized systems. These advantages translate into easier administration, better scalability and significant financial savings.
+
+Pika has lower hardware requirements than traditional Windows-based applications. This means that old desktop computers, which are too old to run the latest Windows case management application, can still be used to access the Pika system. Pika's lower network bandwidth requirements mean that it will use less bandwidth, even when many people are using the system concurrently, and can be used across your existing Internet connections.
+
+Administration costs are also greatly reduced with a website-based system, since there's no special software to install and maintain on each of the workstations. Once Pika is installed on the web server, it's instantly available to all your staff.
+
+Finally, Pika is compatible with low cost, Open Source technologies, such as Linux, Apache and MySQL. These tools take the place of expensive, proprietary software such as MS SQL Server, Citrix and MS Terminal Server. </p>
+        </div>
+		
+		<hr class="featurette-divider">
+
+        <!-- Technical Info Section -->
+        <div class="featurette" id="tech-info">
+            <a name="Technical-Info"></a>
+            <h2 class="featurette-heading">Technical Information</h2>
+            <p class="lead">Once Pika is installed on your local network, there are several ways to connect your other offices to the system. If you have a WAN or VPN, it can be used. In lieu of this, Pika can be connected to a broadband Internet connection.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Support Section -->
+        <div class="featurette" id="support">
+            <a name="Support"></a>
+            <h2 class="featurette-heading">Support</h2>
+            <p class="lead">For support, check out the <a href="https://groups.google.com/forum/#!forum/pikacms">OCM Google Group</a> to ask questions and get help from other OCM users. We also offer support contracts to some of our clients. Contact us for more details.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Contact Section -->
+        <div class="featurette" id="contact">
+            <a name="Contact"></a>
+            <h2 class="featurette-heading">Contact Pika Software</h2>
+            <p class="lead">Still have questions? Interested in becoming a support or hosting client? Let us know!</p>
+        </div>
+
+        <hr class="featurette-divider">
 
       <footer class="footer">
         <p>&copy; Pika Software LLC 2017</p>
       </footer>
+	</div>
 
     </div> <!-- /container -->
 
