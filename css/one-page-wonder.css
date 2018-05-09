@@ -4,10 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	
-}
 
 .header-image {
     display: block;
@@ -34,6 +30,14 @@ body {
     font-size: 77px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+}
+
+.pricing {
+	text-align: center;
+}
+
+h4.pricing {
+	margin-top: 2rem;
 }
 
 .featurette-divider {
@@ -114,6 +118,14 @@ footer {
     .featurette-heading {
         font-size: 30px;
     }
+	
+	.pricing {
+		text-align: left;
+	}
+
+	h4.pricing {
+		margin-top: 0px;
+	}
 }
 
 @media(max-width:768px) {
